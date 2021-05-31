@@ -26,8 +26,10 @@
 
             @media only screen and (max-width: 600px) {
                 .bg{
-                    background-color: #231f20;
-                    background-size: contain;
+                    background-image: url('{{asset('images/mobile.png')}}');
+
+                    /* background-color: #231f20; */
+                    /* background-size: contain; */
                 }
             }
 
